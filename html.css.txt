@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <style>
+  H1{
+    Background-color:black;
+    text-align: center;
+    font-size: 30px;
+    color:orange;
+    padding: 25px;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li{
+    float:left;
+  }
+  li a{
+    color:orange;
+    text-align; center;
+    font-size: 20px;
+    padding: 10px 100px;
+    display: block;
+    transition-duration: .5s;
+    text-decoration: none;
+    background-color: black;
+  }
+  li a:hover{
+    background-color:grey;
+    font-size: 25px;
+  }
+  .image{
+    background-color: blue;
+    height: 400px;
+    width: 320px;
+    margin-top: 10px;
+    transition-duration: .5s;
+    margin-left: 10px;
+      
+  }
+  .image:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+  }
+  .main{
+    display: flex;
+    
+  }
+  .footer{
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: -35px;
+    color: white;
+  }
+  .text{
+    color: orange;
+    background-color: black;
+  }
+  hr{
+    background-color: darkblue;
+    height: 50px;
+  }
+  .crt1{
+    width: 100px;
+  }
+  </style>
+</head>
+<body>
+  <h1>VivaMax</h1>
+  <ul>
+    <li><a href="hehehe.html">Home</a></li>
+    <li><a href="hehehe.html">Photo</a></li>
+    <li><a href="hehehe.html"><img src="\Users\Engineering\Downloads\vv.jpg" class="crt1"></a></li>
+    <li><a href="hehehe.html">About</a></li>
+    <li><a href="hehehe.html">Logout</a></li>
+  </ul>
+  <h1 class="text">VivaMax Model's</h1>
+  <div class="main">
+    <div><img src="\Users\Engineering\Downloads\Denise-Esteban.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Christine-Bermas.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Angela-Morena-1.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Azi-Acosta-Photo.jpg" class="image"></div>
+  </div>
+  <div class="main">
+    <div><img src="\Users\Engineering\Downloads\Angeli-Khang-Photo-1.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Rose-Van-Ginkel.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Yen-Durano-Photo.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Ayanna-Misola-Photo-1.jpg" class="image"></div>
+  </div>
+  <div class="main">
+    <div><img src="\Users\Engineering\Downloads\Robb-Guinto-Photo.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\AJ-Raval-Photo-2.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Ava-Mendez.jpg" class="image"></div>
+    <div><img src="\Users\Engineering\Downloads\Shiena-Yu-Photo.jpg" class="image"></div>
+    
+  </div>
+  
+  <hr>
+  <div class="footer"> &copy;copyright 2025 creator by Arhon Custodio</div>
+</body>
+</html>
